@@ -1,0 +1,61 @@
+Response clay :
+
+Call:
+lm(formula = clay ~ ocs, data = df)
+
+Residuals:
+      0       1       2       3       4 
+ 4.9480 -0.1634  2.0223 -4.3490 -2.4579 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  204.713     14.600  14.022 0.000786 ***
+ocs           -1.963      0.235  -8.352 0.003599 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.225 on 3 degrees of freedom
+Multiple R-squared:  0.9588,	Adjusted R-squared:  0.945 
+F-statistic: 69.76 on 1 and 3 DF,  p-value: 0.003599
+
+
+Response sand :
+
+Call:
+lm(formula = sand ~ ocs, data = df)
+
+Residuals:
+       0        1        2        3        4 
+-29.4573   0.9913  33.9103  -0.9276  -4.5167 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  489.879     90.106   5.437   0.0122 *
+ocs            5.184      1.450   3.574   0.0374 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 26.08 on 3 degrees of freedom
+Multiple R-squared:  0.8098,	Adjusted R-squared:  0.7464 
+F-statistic: 12.77 on 1 and 3 DF,  p-value: 0.03745
+
+
+Response silt :
+
+Call:
+lm(formula = silt ~ ocs, data = df)
+
+Residuals:
+       0        1        2        3        4 
+ 13.9715   9.3391 -30.2735   0.9517   6.0111 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  316.748     70.138   4.516   0.0203 *
+ocs           -3.123      1.129  -2.766   0.0698 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 20.3 on 3 degrees of freedom
+Multiple R-squared:  0.7183,	Adjusted R-squared:  0.6244 
+F-statistic: 7.649 on 1 and 3 DF,  p-value: 0.06982
